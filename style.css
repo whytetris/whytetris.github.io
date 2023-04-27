@@ -1,0 +1,14 @@
+div.box{
+ height:200px;
+ width:200px;
+ text-align:center;
+ font-size:14px;
+ color:#090;
+ background-color:#ddd;
+ margin-right:10px;
+}
+.text{
+    color:#110;
+    background-color:#00FF00;
+    text-align:center;
+}
