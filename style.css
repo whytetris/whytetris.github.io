@@ -12,3 +12,12 @@ div.box{
     background-color:#00FF00;
     text-align:center;
 }
+
+.button{
+ background-color:#00FF00;
+ height:50px;
+ width:200px;
+}
+
+.button:hover { background: gold; }
+.button:active {background: red;}
