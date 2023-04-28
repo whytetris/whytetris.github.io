@@ -2,6 +2,11 @@ let tg = window.Telegram.WebApp; //получаем объект webapp теле
 
 tg.expand(); //расширяем на все окно  
 
+let userid = document.createElement('p'); //создаем еще параграф 
+userid.innerText = `${tg.initDataUnsafe.user.id}`; //показываем user_id
+usercard.appendChild(userid); //добавляем
+
+
 tg.MainButton.text = "Changed Text"; //изменяем текст кнопки 
 tg.MainButton.setText("Changed Text1"); //изменяем текст кнопки иначе
 tg.MainButton.textColor = "#F55353"; //изменяем цвет текста кнопки
@@ -47,6 +52,3 @@ ${tg.initDataUnsafe.user.username} (${tg.initDataUnsafe.user.language_code})`;
 //выдем имя, "фамилию", через тире username и код языка
 usercard.appendChild(profName); //добавляем 
 
-let userid = document.createElement('p'); //создаем еще параграф 
-userid.innerText = `${tg.initDataUnsafe.user.id}`; //показываем user_id
-usercard.appendChild(userid); //добавляем
