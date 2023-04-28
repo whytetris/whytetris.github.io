@@ -21,6 +21,10 @@ body{
 	border: none;
 	font-size: 19px;
 }
+.button:hover{
+    background: var(--tg-theme-button-text-color);
+	color: var(--tg-theme-button-text-color);
+}
 
 .button:not(:last-child){
 	margin-bottom: 20px
