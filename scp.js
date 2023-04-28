@@ -1,3 +1,8 @@
+let tg = window.Telegram.WebApp;
+
+
+
+
 function alerted(){
-    alert("Вы нажали на кнопку");
+    alert(tg.initData);
   }
